@@ -1,0 +1,31 @@
+.banner > div {
+  background-color: aqua;
+  padding: 10px;
+}
+/* 
+.banner > :nth-child(odd) {
+  background-color: blue;
+} */
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  grid-auto-rows: minmax(100px,auto);
+  
+
+}
+.banner1 >div{
+    border: 2px solid salmon;
+}
+
+.banner1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: rgb(55, 0, 255);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px,auto);
+
+    
+}
